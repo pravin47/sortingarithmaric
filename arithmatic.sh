@@ -2,8 +2,10 @@
 read -p "enter the three any number " a
 read b
 read c
-result=$(( $a+$b*$c ))
-echo "result is : "$result
+result1=$(( $a+$b*$c ))
+echo "result1 is : "$result1
+result2=$(( $a*$b+$c ))
+echo "result2 is : " $result2
 
 
 
