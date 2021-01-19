@@ -6,6 +6,7 @@ result1=$(( $a+$b*$c ))
 echo "result1 is : "$result1
 result2=$(( $a*$b+$c ))
 echo "result2 is : " $result2
-
+result4=$(($c+$a/$b))
+echo "result4 is : " $result4
 
 
